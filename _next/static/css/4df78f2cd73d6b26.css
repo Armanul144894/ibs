@@ -227,3 +227,31 @@
   opacity: 0.75;
   color: #000;
 }
+
+
+.swiper-pagination{
+  position:  relative !important;
+}
+
+.swiper-pagination-bullet{
+  width: 15px !important;
+  height: 15px !important;
+}
+.swiper-pagination-bullet-active{
+  background: #242a56 !important;
+}
+.swiper-container:hover .swiper-autoplay {
+  animation-play-state: paused;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: #242a56 !important;
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+@media (max-width: 767px) {
+  .swiper-button-next, .swiper-button-prev{
+   display: none !important;
+  }
+}
