@@ -21,8 +21,8 @@
 </head>
 
 <body>
-    <nav class="flex items-center justify-center data-[menu-open=true]:border-none inset-x-0 data-[menu-open=true]:backdrop-blur-xl z-50 w-full py-7 fixed left-0 top-0 bg-transparent -backdrop-blur-lg bg-opacity-0 h-[96px] -backdrop-saturate-150 transition duration-100"
-        style="--navbar-height: 4rem">
+    <nav class="flex items-center justify-center shadow-lg data-[menu-open=true]:border-none inset-x-0 data-[menu-open=true]:backdrop-blur-xl z-50 w-full py-7 fixed left-0 top-0 bg-transparent -backdrop-blur-lg bg-opacity-0 h-[96px] -backdrop-saturate-150 transition duration-100"
+        style="--navbar-height: 4rem;background: white !important;">
         <header
             class="z-40 flex px-6 gap-4 w-full flex-row relative flex-nowrap items-center justify-between h-[var(--navbar-height)] max-w-[1536px]">
             <ul class="gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 xl:hidden lg:hidden flex"
@@ -38,8 +38,8 @@
                     </button>
                     <!-- Offcanvas Menu -->
                     <div id="offcanvasMenu"
-                        class="fixed top-0 left-0 w-64 h-full bg-gray-800 shadow-lg transform -translate-x-full transition-transform duration-300 p-5">
-                        <button id="closeMenu" class="text-white text-xl">&times;</button>
+                        class="fixed top-0 left-0 w-72 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 p-5">
+                        <button id="closeMenu" class="text-primary text-xl">&times;</button>
                         <ul class="mt-5 space-y-4 text-white pt-12">
                             <li>
                                 <a href="index.html" class="hover:text-yellow-400">
@@ -62,21 +62,21 @@
                                     </h5>
                                 </a>
                                 <!-- Dropdown Menu -->
-                                <ul class="absolute top-full left-0 bg-gray-800 shadow-lg hidden group-hover:block w-44"
+                                <ul class="absolute top-full left-0 bg-white shadow-lg hidden group-hover:block w-44"
                                     style="top: 40px;">
                                     <li>
                                         <a href="diploma-courses.html"
-                                            class="block px-4 py-2 text-white hover:bg-gray-700">Diploma
+                                            class="block px-4 py-2 text-white hover:bg-gray-100">Diploma
                                             Courses</a>
                                     </li>
                                     <li>
                                         <a href="university-courses.html"
-                                            class="block px-4 py-2 text-white hover:bg-gray-700">University
+                                            class="block px-4 py-2 text-white hover:bg-gray-100">University
                                             Courses</a>
                                     </li>
                                     <li>
                                         <a href="functional-skills-courses.html"
-                                            class="block px-4 py-2 text-white hover:bg-gray-700">Functional Skills
+                                            class="block px-4 py-2 text-white hover:bg-gray-100">Functional Skills
                                             Courses</a>
                                     </li>
                                 </ul>
@@ -100,7 +100,7 @@
                 class="flex basis-0 flex-row flex-grow flex-nowrap justify-start bg-transparent items-center no-underline text-medium whitespace-nowrap box-border">
                 <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                     tabindex="0" role="link" href="index.html"><img alt="logo" loading="lazy" width="32" height="32"
-                        decoding="async" data-nimg="1" class="h-20 w-auto" style="color: transparent"
+                        decoding="async" data-nimg="1" class="logo" style="color: transparent"
                         src="images/IBS Logo-01.png" /></a>
             </div>
             <ul class="h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 hidden xl:flex lg:flex gap-0"
@@ -114,32 +114,32 @@
                 </li>
                 <li
                     class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold flex relative h-full items-center data-[active=true]:after:content-[&#x27;&#x27;] data-[active=true]:after:absolute data-[active=true]:after:bottom-0 data-[active=true]:after:left-0 data-[active=true]:after:right-0 data-[active=true]:after:h-[2px] data-[active=true]:after:rounded-[2px] data-[active=true]:after:bg-primary group">
-                    <a class="inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium no-underline hover:opacity-80 active:opacity-disabled transition-opacity active-class-name text-[#FFE500] font-semibold relative overflow-hidden group border-l-2 border-r-2 px-2 border-[#FFE500]"
+                    <a class="inline-flex items-center active tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium no-underline hover:opacity-80 active:opacity-disabled transition-opacity active-class-name text-[#FFE500] font-semibold relative overflow-hidden group border-l-2 border-r-2 px-2 border-[#FFE500]"
                         tabindex="0" role="link" aria-current="page">
                         <h5 class="flex items-center gap-2">
                             Courses
                             <!-- Down Arrow Icon -->
                             <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" fill="#ff3131" stroke-linejoin="round" stroke-width="2"
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </h5>
                     </a>
                     <!-- Dropdown Menu -->
-                    <ul class="absolute top-full left-0 bg-gray-800 shadow-lg hidden group-hover:block w-48"
+                    <ul class="absolute top-full left-0 bg-white shadow-lg hidden group-hover:block w-48"
                         style="top: 40px;">
                         <li>
-                            <a href="diploma-courses.html" class="block px-4 py-2 text-white hover:bg-gray-700">Diploma
+                            <a href="diploma-courses.html" class="block px-4 py-2 text-white hover:bg-gray-100">Diploma
                                 Courses</a>
                         </li>
                         <li>
                             <a href="university-courses.html"
-                                class="block px-4 py-2 text-white hover:bg-gray-700">University Courses</a>
+                                class="block px-4 py-2 text-white hover:bg-gray-100">University Courses</a>
                         </li>
                         <li>
                             <a href="functional-skills-courses.html"
-                                class="block px-4 py-2 text-white hover:bg-gray-700">Functional Skills Courses</a>
+                                class="block px-4 py-2 text-white hover:bg-gray-100">Functional Skills Courses</a>
                         </li>
                     </ul>
                 </li>
@@ -208,13 +208,13 @@
                 <div
                     class="gradient-cover sm:backdrop-blur-0 backdrop-blur-[1px] flex flex-col justify-end sm:items-start items-center px-8 lg:px-20 md:gap-y-20 sm:gap-y-16 gap-y-10">
                     <div class="xl:pb-40 md:pb-20 pb-10 sm:text-left text-center">
+                        <h1 class="pb-10 text-white shadow-xl text-shadow underline">Diploma Courses</h1>
                         <h1 class="text-white">
                             Explore<!-- -->
                             <span class="text-[#FFE500] capitalize">Our Courses</span>
                             <!-- -->to
                         </h1>
-                        <h1 class="text-white">unlock your career</h1>
-                        <h1 class="text-white">potential.</h1>
+                        <h1 class="text-white">unlock your career potential.</h1>
                     </div>
                 </div>
             </div>
@@ -540,9 +540,9 @@
                 <div class="col-span-4">
                     <img src="images/IBS Logo-01.png" alt="logo" class="pb-4 w-72" />
                     <h3 class="text-lg font-medium leading-9 mb-4 lg:mb-10">
-                        International Business School Forest House (6th Floor) 16-20
-                        Clements Road London, Ilford IG1 1BA
-                    </h3>
+            International Business School <br> Forest House (6th Floor) <br>
+            16-20 Clements Road <br> London, Ilford IG1 1BA
+          </h3>
                     <div class="flex gap-4">
                         <a href="#" rel="noreferrer" target="_blank" class="transition"><span
                                 class="sr-only"></span><svg class="h-8 w-8" viewBox="0 0 24 24" aria-hidden="true">

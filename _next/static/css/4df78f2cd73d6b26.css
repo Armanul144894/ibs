@@ -255,3 +255,34 @@
    display: none !important;
   }
 }
+
+header img.logo{
+  width: 180px !important;
+  max-width: 180px !important;
+}
+
+header a{
+  color: #242a56 !important;
+  font-weight: 600;
+}
+header a.active{
+  color: #ff3131 !important;
+  font-weight: 600;
+}
+
+header a.active svg{
+  fill: #ff3131 !important;
+  font-weight: 600;
+}
+
+.text-primary{
+ color: #242a56 !important;
+}
+
+#menuButton{
+  color: #242a56 !important;
+}
+
+nav svg{
+  fill: #242a56 !important;
+}

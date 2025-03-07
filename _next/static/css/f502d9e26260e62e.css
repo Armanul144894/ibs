@@ -2118,6 +2118,11 @@ svg{
   --tw-bg-opacity: 1;
   background-color: #242a56;
 }
+.bg-\[\#23cd23a8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(3, 165, 3, 0.575);
+}
+
 .bg-amber-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 243 199 / var(--tw-bg-opacity));
@@ -4274,7 +4279,7 @@ label {
     line-height: 32px;
   }
   h5 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
   }
   p {

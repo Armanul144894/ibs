@@ -22,8 +22,8 @@
 
 <body>
   <nav
-    class="flex items-center justify-center data-[menu-open=true]:border-none inset-x-0 data-[menu-open=true]:backdrop-blur-xl z-50 w-full py-7 fixed left-0 top-0 bg-transparent -backdrop-blur-lg bg-opacity-0 h-[96px] -backdrop-saturate-150 transition duration-100"
-    style="--navbar-height: 4rem">
+    class="flex items-center justify-center shadow-lg data-[menu-open=true]:border-none inset-x-0 data-[menu-open=true]:backdrop-blur-xl z-50 w-full py-7 fixed left-0 top-0 bg-transparent -backdrop-blur-lg bg-opacity-0 h-[96px] -backdrop-saturate-150 transition duration-100"
+    style="--navbar-height: 4rem; background: white !important;">
     <header
       class="z-40 flex px-6 gap-4 w-full flex-row relative flex-nowrap items-center justify-between h-[var(--navbar-height)] max-w-[1536px]">
       <ul
@@ -39,8 +39,8 @@
           </button>
           <!-- Offcanvas Menu -->
           <div id="offcanvasMenu"
-            class="fixed top-0 left-0 w-64 h-full bg-gray-800 shadow-lg transform -translate-x-full transition-transform duration-300 p-5">
-            <button id="closeMenu" class="text-white text-xl">&times;</button>
+            class="fixed top-0 left-0 w-72 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 p-5">
+            <button id="closeMenu" class="text-primary text-xl">&times;</button>
             <ul class="mt-5 space-y-4 text-white pt-12">
               <li>
                 <a href="index.html" class="hover:text-yellow-400">
@@ -61,19 +61,19 @@
                   </h5>
                 </a>
                 <!-- Dropdown Menu -->
-                <ul class="absolute top-full left-0 bg-gray-800 shadow-lg hidden group-hover:block w-44"
+                <ul class="absolute top-full left-0 bg-white shadow-lg hidden group-hover:block w-44"
                   style="top: 40px;">
                   <li>
-                    <a href="diploma-courses.html" class="block px-4 py-2 text-white hover:bg-gray-700">Diploma
+                    <a href="diploma-courses.html" class="block px-4 py-2 text-white hover:bg-gray-100">Diploma
                       Courses</a>
                   </li>
                   <li>
-                    <a href="university-courses.html" class="block px-4 py-2 text-white hover:bg-gray-700">University
+                    <a href="university-courses.html" class="block px-4 py-2 text-white hover:bg-gray-100">University
                       Courses</a>
                   </li>
                   <li>
                     <a href="functional-skills-courses.html"
-                      class="block px-4 py-2 text-white hover:bg-gray-700">Functional Skills Courses</a>
+                      class="block px-4 py-2 text-white hover:bg-gray-100">Functional Skills Courses</a>
                   </li>
                 </ul>
               </li>
@@ -96,7 +96,7 @@
         class="flex basis-0 flex-row flex-grow flex-nowrap justify-start bg-transparent items-center no-underline text-medium whitespace-nowrap box-border">
         <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
           tabindex="0" role="link" href="index.html"><img alt="logo" loading="lazy" width="32" height="32"
-            decoding="async" data-nimg="1" class="h-20 w-auto" style="color: transparent"
+            decoding="async" data-nimg="1" class="logo" style="color: transparent"
             src="images/IBS Logo-01.png" /></a>
       </div>
       <ul
@@ -123,16 +123,16 @@
             </h5>
           </a>
           <!-- Dropdown Menu -->
-          <ul class="absolute top-full left-0 bg-gray-800 shadow-lg hidden group-hover:block w-48" style="top: 40px;">
+          <ul class="absolute top-full left-0 bg-white shadow-lg hidden group-hover:block w-48" style="top: 40px;">
             <li>
-              <a href="diploma-courses.html" class="block px-4 py-2 text-white hover:bg-gray-700">Diploma Courses</a>
+              <a href="diploma-courses.html" class="block px-4 py-2 text-white hover:bg-gray-100">Diploma Courses</a>
             </li>
             <li>
-              <a href="university-courses.html" class="block px-4 py-2 text-white hover:bg-gray-700">University
+              <a href="university-courses.html" class="block px-4 py-2 text-white hover:bg-gray-100">University
                 Courses</a>
             </li>
             <li>
-              <a href="functional-skills-courses.html" class="block px-4 py-2 text-white hover:bg-gray-700">Functional
+              <a href="functional-skills-courses.html" class="block px-4 py-2 text-white hover:bg-gray-100">Functional
                 Skills Courses</a>
             </li>
           </ul>
@@ -147,7 +147,7 @@
         </li>
         <li
           class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold flex relative h-full items-center data-[active=true]:after:content-[&#x27;&#x27;] data-[active=true]:after:absolute data-[active=true]:after:bottom-0 data-[active=true]:after:left-0 data-[active=true]:after:right-0 data-[active=true]:after:h-[2px] data-[active=true]:after:rounded-[2px] data-[active=true]:after:bg-primary">
-          <a class="inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium no-underline hover:opacity-80 active:opacity-disabled transition-opacity active-class-name text-[#FFE500] font-semibold relative overflow-hidden group border-l-2 border-r-2 px-2 border-[#FFE500]"
+          <a class="active inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium no-underline hover:opacity-80 active:opacity-disabled transition-opacity active-class-name text-[#FFE500] font-semibold relative overflow-hidden group border-l-2 border-r-2 px-2 border-[#FFE500]"
             tabindex="0" role="link" aria-current="page" href="contact-us.html">
             <h5>Contact Us</h5>
           </a>
@@ -187,7 +187,7 @@
   </nav>
   <section class="px-4 py-14 md:px-6 md:py-20 lg:py-24">
     <div class="mx-auto flex w-full max-w-5xl flex-col gap-12 items-center">
-      <div class="animate_top mx-auto text-center pb-10 px-2">
+      <div class="animate_top mx-auto text-center pb-10 px-2 mt-20">
         <h2 class="mx-auto text-[#23315B] mb-9 px-6 border-[#FFE500] border-l-2 border-r-2">
           Contact us
         </h2>
@@ -206,7 +206,7 @@
             " sizes="100vw" src="images/contact.jpg" />
         <div class="gradient-cover rounded-md"></div>
         <div
-          class="flex w-full flex-col md:w-1/2 absolute top-0 left-0 h-full bg-[#4A68C1] md:bg-opacity-80 bg-opacity-30 px-8 py-20">
+          class="flex w-full flex-col md:w-1/2 absolute top-0 left-0 h-full bg-[#23cd23a8] md:bg-opacity-80 bg-opacity-30 px-8 py-20">
           <h3 class="text-white text-center">Get in Touch</h3>
           <form class="flex flex-col pt-3 pb-8 md:pt-8 h-full" action="#" method="POST">
             <div class="flex flex-col h-full gap-x-4 gap-y-3">
@@ -262,7 +262,7 @@
       </div>
 
       <div class="pt-20 w-full">
-        <div class="flex flex-col gap-8 py-10 px-8 bg-[#4A68C1] text-center w-full text-white">
+        <div class="flex flex-col gap-8 py-10 px-8 bg-[#FFE500] text-center w-full text-white rounded">
           <div class="flex flex-col gap-2 items-start">
             <h3>Our address</h3>
             <div class="flex gap-3 items-center">
@@ -353,8 +353,8 @@
         <div class="col-span-4">
           <img src="images/IBS Logo-01.png" alt="logo" class="pb-4 w-72" />
           <h3 class="text-lg font-medium leading-9 mb-4 lg:mb-10">
-            International Business School Forest House (6th Floor) 16-20
-            Clements Road London, Ilford IG1 1BA
+            International Business School <br> Forest House (6th Floor) <br>
+            16-20 Clements Road <br> London, Ilford IG1 1BA
           </h3>
           <div class="flex gap-4">
             <a href="#" rel="noreferrer" target="_blank" class="transition"><span class="sr-only"></span><svg
