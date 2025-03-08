@@ -126,9 +126,9 @@
                                 "If you need academic adjustments or extra support, you will need to provide medical evidence or a formal report. In most cases medical evidence will be a letter from your doctor (General Practitioner or GP), or other appropriate health care professional. If you are unsure of what evidence to provide you can email us at",
                                 " ",
                                 (0, a.jsx)(l.default, {
-                                  href: "mailto:myWell-being@williamcollege.com",
+                                  href: "mailto:info@ibstraining.co.uk,
                                   className: "underline",
-                                  children: "mywell-being@williamcollege.com",
+                                  children: "info@ibstraining.co.uk,
                                 }),
                                 " ",
                                 " for further advice.",
