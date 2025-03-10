@@ -90,7 +90,7 @@
                       children: [
                         "Advance your ",
                         (0, n.jsx)("span", {
-                          className: "text-[#FFE500] capitalize",
+                          className: "text-[#ff3131] capitalize",
                           children: "Business Skills",
                         }),
                       ],
@@ -102,7 +102,7 @@
                   ],
                 }),
                 (0, n.jsx)("div", {
-                  className: "rounded-md shadow-lg shadow-[#FFE500] w-fit",
+                  className: "rounded-md shadow-lg shadow-[#ff3131] w-fit",
                   onMouseLeave: () => {
                     c(""), f([]);
                   },

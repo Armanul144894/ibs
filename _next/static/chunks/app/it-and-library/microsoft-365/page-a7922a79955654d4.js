@@ -665,7 +665,7 @@
                           children: "HOW TO SET UP YOUR ",
                         }),
                         (0, t.jsx)("h1", {
-                          className: "text-[#FFE500] ",
+                          className: "text-[#ff3131] ",
                           children: "MICROSOFT 365",
                         }),
                         (0, t.jsx)("h1", {
@@ -748,7 +748,7 @@
           className: "animate_top mx-auto text-center pb-10 px-2",
           children: (0, t.jsx)("h2", {
             className:
-              "mx-auto text-[#23315B] mb-9 px-6 border-[#FFE500] border-l-2 border-r-2 ",
+              "mx-auto text-[#23315B] mb-9 px-6 border-[#ff3131] border-l-2 border-r-2 ",
             children: l,
           }),
         });
@@ -806,7 +806,7 @@
               i,
               (0, t.jsx)(n.Z, {
                 className: r(
-                  "h-6 w-6 shrink-0 transition-transform duration-200 text-[#FFE500]",
+                  "h-6 w-6 shrink-0 transition-transform duration-200 text-[#ff3131]",
                   c
                 ),
               }),

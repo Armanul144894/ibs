@@ -1864,7 +1864,7 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(253 218 0 / var(--tw-border-opacity));
 }
-.border-\[\#FFE500\] {
+.border-\[\#ff3131\] {
   --tw-border-opacity: 1;
   border-color: #242a56;
 }
@@ -2114,13 +2114,17 @@ svg {
   --tw-bg-opacity: 1;
   background-color: rgb(253 218 0 / var(--tw-bg-opacity));
 }
-.bg-\[\#FFE500\] {
+.bg-\[\#ff3131\] {
   --tw-bg-opacity: 1;
   background-color: #242a56;
 }
 .bg-\[\#23cd23a8\] {
   --tw-bg-opacity: 1;
   background-color: rgba(3, 165, 3, 0.575);
+}
+.bg-\[\#FDDA00\] {
+  --tw-bg-opacity: 1;
+  background-color: #fddc60;
 }
 
 .bg-amber-100 {
@@ -2170,9 +2174,7 @@ svg {
 }
 .bg-danger {
   --tw-bg-opacity: 1;
-  background-color: hsl(
-    var(--nextui-danger) / var(--nextui-danger-opacity, var(--tw-bg-opacity))
-  );
+  background-color: #ff3131;
 }
 .bg-danger-50 {
   --tw-bg-opacity: 1;
@@ -2912,7 +2914,7 @@ svg {
   --tw-text-opacity: 1;
   color: rgb(253 218 0 / var(--tw-text-opacity));
 }
-.text-\[\#FFE500\] {
+.text-\[\#ff3131\] {
   --tw-text-opacity: 1;
   color: #ff3131;
 }
@@ -3286,8 +3288,8 @@ svg {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-.shadow-\[\#FFE500\] {
-  --tw-shadow-color: #ffe500;
+.shadow-\[\#ff3131\] {
+  --tw-shadow-color: #ff3131;
   --tw-shadow: var(--tw-shadow-colored);
 }
 .shadow-black\/5 {
@@ -4479,11 +4481,11 @@ label {
 .text-shadow {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
-.marker\:text-\[\#FFE500\] ::marker {
-  color: #ffe500;
+.marker\:text-\[\#ff3131\] ::marker {
+  color: #ff3131;
 }
-.marker\:text-\[\#FFE500\]::marker {
-  color: #ffe500;
+.marker\:text-\[\#ff3131\]::marker {
+  color: #ff3131;
 }
 .placeholder\:text-danger::-moz-placeholder {
   --tw-text-opacity: 1;

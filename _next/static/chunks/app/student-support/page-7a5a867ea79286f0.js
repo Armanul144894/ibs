@@ -46,7 +46,7 @@
                           children: " Academic and  ",
                         }),
                         (0, s.jsx)("h1", {
-                          className: "text-[#FFE500] ",
+                          className: "text-[#ff3131] ",
                           children: " Student Support ",
                         }),
                         (0, s.jsx)("h1", {
@@ -322,7 +322,7 @@
           className: "animate_top mx-auto text-center pb-10 px-2",
           children: (0, s.jsx)("h2", {
             className:
-              "mx-auto text-[#23315B] mb-9 px-6 border-[#FFE500] border-l-2 border-r-2 ",
+              "mx-auto text-[#23315B] mb-9 px-6 border-[#ff3131] border-l-2 border-r-2 ",
             children: a,
           }),
         });

@@ -495,7 +495,7 @@ London, Ilford IG1 1BA",
           className: "animate_top mx-auto text-center pb-10 px-2",
           children: (0, l.jsx)("h2", {
             className:
-              "mx-auto text-[#23315B] mb-9 px-6 border-[#FFE500] border-l-2 border-r-2 ",
+              "mx-auto text-[#23315B] mb-9 px-6 border-[#ff3131] border-l-2 border-r-2 ",
             children: s,
           }),
         });

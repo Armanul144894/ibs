@@ -43,7 +43,7 @@
                       children: [
                         (0, a.jsx)("h1", { children: "Mental Heath and " }),
                         (0, a.jsx)("h1", {
-                          className: "text-[#FFE500] ",
+                          className: "text-[#ff3131] ",
                           children: "Wellbeing",
                         }),
                       ],
@@ -63,7 +63,7 @@
                       children: [
                         (0, a.jsxs)("div", {
                           className:
-                            "relative overflow-hidden border-8 h-full border-[#FFE500]",
+                            "relative overflow-hidden border-8 h-full border-[#ff3131]",
                           children: [
                             (0, a.jsx)(r.default, {
                               src: "/student-support/wellbeing-2.png",
@@ -78,7 +78,7 @@
                         }),
                         (0, a.jsx)("div", {
                           className:
-                            "border-8 border-[#FFE500] absolute bg-transparent top-0 right-0 aspect-square h-1/3",
+                            "border-8 border-[#ff3131] absolute bg-transparent top-0 right-0 aspect-square h-1/3",
                         }),
                       ],
                     }),
@@ -154,7 +154,7 @@
                     }),
                     (0, a.jsxs)("div", {
                       className:
-                        "relative overflow-hidden border-8 w-full md:aspect-auto aspect-square border-[#FFE500]",
+                        "relative overflow-hidden border-8 w-full md:aspect-auto aspect-square border-[#ff3131]",
                       children: [
                         (0, a.jsx)(r.default, {
                           src: "/student-support/wellbeing-3.png",
@@ -229,7 +229,7 @@
                               (0, a.jsx)("div", {
                                 className:
                                   "h-full w-1/2 absolute bottom-0 right-0 z-10 rounded-md ".concat(
-                                    t % 2 == 1 ? "bg-[#FFE500]" : "bg-[#23315B]"
+                                    t % 2 == 1 ? "bg-[#ff3131]" : "bg-[#23315B]"
                                   ),
                               }),
                             ],
@@ -238,7 +238,7 @@
                             className:
                               "md:col-span-2 rounded-md px-8 py-6 flex flex-col gap-6 justify-center ".concat(
                                 t % 2 == 1
-                                  ? "bg-[#FFE500] text-[#23315B]"
+                                  ? "bg-[#ff3131] text-[#23315B]"
                                   : "bg-[#23315B] text-white"
                               ),
                             children: [
@@ -293,7 +293,7 @@
           className: "animate_top mx-auto text-center pb-10 px-2",
           children: (0, a.jsx)("h2", {
             className:
-              "mx-auto text-[#23315B] mb-9 px-6 border-[#FFE500] border-l-2 border-r-2 ",
+              "mx-auto text-[#23315B] mb-9 px-6 border-[#ff3131] border-l-2 border-r-2 ",
             children: s,
           }),
         });
